@@ -14,6 +14,11 @@
 
     <!-- my css -->
     <link rel="stylesheet" href="./assets/style.css">
+
+    <!-- cdn font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css"
+        integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
 </head>
 
 <body>
@@ -59,10 +64,9 @@
                 <div class="col">
                     <h1 fw-bold>Selamat Datang di <span class="text-primary">Aplikasi IDN E-Report 2026</span> Forum
                         Pengaduan</h1>
-                    <p class="lh-lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, maxime quasi totam
-                        aut reiciendis
-                        voluptas incidunt nobis consequuntur id aliquid qui saepe debitis iste temporibus fugit
-                        quibusdam itaque illo molestiae.</p>
+                    <p class="lh-lg">Sampaikan laporan, keluhan, atau masukan Anda dengan mudah melalui IDN E-Report.
+                        Setiap laporan akan membantu kami menciptakan lingkungan sekolah yang lebih nyaman, aman, dan
+                        baik bagi seluruh Siswa IDN</p>
                     <div class="mt-5">
                         <a class="btn btn-primary" href="">About us</a>
                         <a class="btn btn-outline-primary" href="">Let's Start</a>
@@ -81,13 +85,109 @@
             <div class="about row">
                 <div class="col text-center">
                     <h1 class="text-primary fw-bold">About Us</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates repellat a itaque, voluptate
-                        ipsam tempore?</p>
+                    <p>IDN E-Report 2026 merupakan platform pengaduan yang membantu siswa dan warga sekolah menyampaikan
+                        laporan, keluhan, serta saran dengan mudah. Kami hadir untuk membangun komunikasi yang lebih
+                        terbuka dan menciptakan lingkungan IDN yang lebih nyaman, aman, dan lebih baik.</p>
                     <img src="./assets/images/team.png" alt="Foto Team">
                 </div>
             </div>
         </div>
 
+    </section>
+
+    <!-- services -->
+    <section id="Services" class="p-3 p-lg-0">
+        <div class="container">
+            <div>
+                <h1 class="fw-bold text-primary">Layanan Kami</h1>
+                <p class="lh-lg">Sampaikan Pengaduan dengan Mudah
+                    IDN E-Report menyediakan layanan pengaduan yang membantu siswa menyampaikan berbagai masalah,
+                    keluhan, dan masukan di lingkungan sekolah secara mudah dan terarah.</p>
+            </div>
+            <div class="row service mt-5 gap-4">
+                <div class="col bg-primary-subtle p-4 rounded text-primary-emphasis">
+                    <div class="d-flex gap-3 align-items-center mb-2">
+                        <i class="fa-solid fa-graduation-cap fs-5"></i>
+                        <h4 class="fw-semibold mb-0">Pengaduan Akademik</h4>
+                    </div>
+                    <p class="lh-lg">Laporkan masalah yang berkaitan dengan kegiatan belajar, pembelajaran, tugas,
+                        jadwal, atau hal lain yang berhubungan dengan akademik.</p>
+                </div>
+                <div class="col bg-primary-subtle p-4 rounded text-primary-emphasis">
+                    <div class="d-flex gap-3 align-items-center mb-2">
+                        <i class="fa-solid fa-screwdriver-wrench fs-5"></i>
+                        <h4 class="fw-semibold mb-0">Pengaduan Fasilitas</h4>
+                    </div>
+                    <p class="lh-lg">Sampaikan laporan mengenai fasilitas sekolah yang rusak, kurang memadai, atau
+                        membutuhkan perbaikan agar lingkungan belajar tetap nyaman.</p>
+                </div>
+                <div class="col bg-primary-subtle p-4 rounded text-primary-emphasis">
+                    <div class="d-flex gap-3 align-items-center mb-2">
+                        <i class="fa-solid fa-user-secret fs-5"></i>
+                        <h4 class="fw-semibold mb-0">Pengaduan Anonymous</h4>
+                    </div>
+                    <p class="lh-lg">Ingin menyampaikan laporan tanpa mencantumkan identitas? Gunakan layanan pengaduan
+                        anonim untuk menyampaikan masalah dengan lebih aman dan nyaman.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- recent report -->
+    <section id="recent">
+        <div class="container">
+            <div class="text-end">
+                <h1>Laporan terbaru</h1>
+                <p>Daftar laporan dan kendala terbaru yang dilaporkan oleh pelapor.</p>
+            </div>
+            <div class="row">
+                <div class="col lg-4 col md-6 mb-4">
+                    <div class="card" style="width: 18rem;">
+                        <div class="kategori position-absolute px-3 py-2 rounded">
+                            <a class="text-white text-decoration-none" href="">Fasilitas</a>
+                        </div>
+                        <img style="max-height: 300px; overflow: hidden;" src="./assets/images/keran rusak.png"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Keran kamar mandi rusak</h5>
+                            <small>By: <a class="text-decoration-none" href="">Donelly</a> 1 Days Ago</small>
+                            <p class="card-text mt-4">Keran air di kamar mandi lantai 2 bocor dan tidak bisa ditutup rapat, mohon segera diperbaiki agar air tidak terbuang.</p>
+                            <a href="#" class="btn btn-primary">Lihat Laporan</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col lg-4 col md-6 mb-4">
+                    <div class="card" style="width: 18rem;">
+                        <div class="kategori position-absolute px-3 py-2 rounded">
+                            <a class="text-white text-decoration-none" href="">Anonymous</a>
+                        </div>
+                        <img style="max-height: 300px; overflow: hidden;" src="./assets/images/foto orang jarang mandi.png"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Ada anak yang jarang mandi</h5>
+                            <small>By: <a class="text-decoration-none" href="">Chivano</a> 2 Days Ago</small>
+                            <p class="card-text mt-4">Keluhan mengenai bau tidak sedap di ruang bersama yang mengganggu kenyamanan belajar.</p>
+                            <a href="#" class="btn btn-primary">Lihat Laporan</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col lg-4 col md-6 mb-4">
+                    <div class="card" style="width: 18rem;">
+                        <div class="kategori position-absolute px-3 py-2 rounded">
+                            <a class="text-white text-decoration-none" href="">Akademik</a>
+                        </div>
+                        <img style="max-height: 300px; overflow: hidden;" src="./assets/images/foto ac rusak.png"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Ac rusak</h5>
+                            <small>By: <a class="text-decoration-none" href="">Musa</a> 3 Days Ago</small>
+                            <p class="card-text mt-4">AC di ruang kelas 3.6 meneteskan air cukup deras dan suhunya tidak dingin lagi.</p>
+                            <a href="#" class="btn btn-primary">Lihat Laporan</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
 
