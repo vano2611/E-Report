@@ -60,7 +60,7 @@
     <section id="hero">
         <div class="container">
             <div
-                class="hero row flex-nowrap flex-column flex-lg-row align-items-center text-center text-lg-start gap-5">
+                class="hero row flex-nowrap flex-column flex-lg-row align-items-center text-center text-lg-start gap-5 ">
                 <div class="col">
                     <h1 fw-bold>Selamat Datang di <span class="text-primary">Aplikasi IDN E-Report 2026</span> Forum
                         Pengaduan</h1>
@@ -73,7 +73,8 @@
                     </div>
                 </div>
                 <div class="col d-flex justify-content-center justify-content-lg-end">
-                    <img src="./assets/images/hero.png" alt="">
+                    <img src="./assets/images/hero.png" alt="ilustrasi" class="img-fluid rounded"
+                        style="box-shadow: 0 0.5rem 1.5rem rgb(5, 91, 220);">
                 </div>
             </div>
         </div>
@@ -88,7 +89,8 @@
                     <p>IDN E-Report 2026 merupakan platform pengaduan yang membantu siswa dan warga sekolah menyampaikan
                         laporan, keluhan, serta saran dengan mudah. Kami hadir untuk membangun komunikasi yang lebih
                         terbuka dan menciptakan lingkungan IDN yang lebih nyaman, aman, dan lebih baik.</p>
-                    <img src="./assets/images/team.png" alt="Foto Team">
+                    <img src="./assets/images/team.png" alt="Foto Team" class="img-fluid rounded"
+                        style="box-shadow: 0 0.5rem 1.5rem rgb(5, 91, 220);">
                 </div>
             </div>
         </div>
@@ -105,40 +107,44 @@
                     keluhan, dan masukan di lingkungan sekolah secara mudah dan terarah.</p>
             </div>
             <div class="row service mt-5 gap-4">
-                <div class="col bg-primary-subtle p-4 rounded text-primary-emphasis">
-                    <div class="d-flex gap-3 align-items-center mb-2">
-                        <i class="fa-solid fa-graduation-cap fs-5"></i>
-                        <h4 class="fw-semibold mb-0">Pengaduan Akademik</h4>
+                <div class="col bg-primary-subtle p-4 rounded text-primary-emphasis ">
+                    <div class="col bg-primary-subtle p-4 rounded text-primary-emphasis card-hover">
+                        <div class="d-flex gap-3 align-items-center mb-2">
+                            <i class="fa-solid fa-graduation-cap fs-5"></i>
+                            <h4 class="fw-semibold mb-0">Pengaduan Akademik</h4>
+                        </div>
+                        <p class="lh-lg">Laporkan masalah yang berkaitan dengan kegiatan belajar, pembelajaran, tugas,
+                            jadwal, atau hal lain yang berhubungan dengan akademik.</p>
                     </div>
-                    <p class="lh-lg">Laporkan masalah yang berkaitan dengan kegiatan belajar, pembelajaran, tugas,
-                        jadwal, atau hal lain yang berhubungan dengan akademik.</p>
                 </div>
-                <div class="col bg-primary-subtle p-4 rounded text-primary-emphasis">
-                    <div class="d-flex gap-3 align-items-center mb-2">
-                        <i class="fa-solid fa-screwdriver-wrench fs-5"></i>
-                        <h4 class="fw-semibold mb-0">Pengaduan Fasilitas</h4>
-                    </div>
-                    <p class="lh-lg">Sampaikan laporan mengenai fasilitas sekolah yang rusak, kurang memadai, atau
+                <div class="col bg-primary-subtle p-4 rounded text-primary-emphasis ">
+                    <div class="col bg-primary-subtle p-4 rounded text-primary-emphasis card-hover">
+                        <div class="d-flex gap-3 align-items-center mb-2">
+                            <i class="fa-solid fa-graduation-cap fs-5"></i>
+                            <h4 class="fw-semibold mb-0">Pengaduan Fasilitas</h4>
+                        </div>
+                        <p class="lh-lg">Sampaikan laporan mengenai fasilitas sekolah yang rusak, kurang memadai, atau
                         membutuhkan perbaikan agar lingkungan belajar tetap nyaman.</p>
-                </div>
-                <div class="col bg-primary-subtle p-4 rounded text-primary-emphasis">
-                    <div class="d-flex gap-3 align-items-center mb-2">
-                        <i class="fa-solid fa-user-secret fs-5"></i>
-                        <h4 class="fw-semibold mb-0">Pengaduan Anonymous</h4>
                     </div>
-                    <p class="lh-lg">Ingin menyampaikan laporan tanpa mencantumkan identitas? Gunakan layanan pengaduan
-                        anonim untuk menyampaikan masalah dengan lebih aman dan nyaman.</p>
                 </div>
-            </div>
-        </div>
+                <div class="col bg-primary-subtle p-4 rounded text-primary-emphasis ">
+                    <div class="col bg-primary-subtle p-4 rounded text-primary-emphasis card-hover">
+                        <div class="d-flex gap-3 align-items-center mb-2">
+                            <i class="fa-solid fa-graduation-cap fs-5"></i>
+                            <h4 class="fw-semibold mb-0">Pengaduan Anonymous</h4>
+                        </div>
+                        <p class="lh-lg">Ingin menyampaikan laporan tanpa mencantumkan identitas? Gunakan layanan pengaduan
+                        anonim untuk menyampaikan masalah dengan lebih aman dan nyaman.</p>
+                    </div>
+                </div>
     </section>
 
     <!-- recent report -->
     <section id="recent">
         <div class="container">
-            <div class="text-end">
-                <h1>Laporan terbaru</h1>
-                <p>Daftar laporan dan kendala terbaru yang dilaporkan oleh pelapor.</p>
+            <div class="text-start">
+                <h1 class="fw-bold text-primary">Laporan terbaru</h1>
+                <p class="lh-lg">Daftar laporan dan kendala terbaru yang dilaporkan oleh pelapor.</p>
             </div>
             <div class="row">
                 <div class="col lg-4 col md-6 mb-4">
@@ -146,7 +152,7 @@
                         <div class="kategori position-absolute px-3 py-2 rounded">
                             <a class="text-white text-decoration-none" href="">Fasilitas</a>
                         </div>
-                        <img style="max-height: 300px; object-fit: cover; overflow: hidden;"
+                        <img style="height: 250px; object-fit: cover; overflow: hidden;"
                             src="./assets/images/keran rusak.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Keran kamar mandi rusak</h5>
@@ -162,7 +168,7 @@
                         <div class="kategori position-absolute px-3 py-2 rounded">
                             <a class="text-white text-decoration-none" href="">Anonymous</a>
                         </div>
-                        <img style="max-height: 300px; object-fit: cover; overflow: hidden;"
+                        <img style="height: 250px; object-fit: cover; overflow: hidden;"
                             src="./assets/images/foto orang jarang mandi.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Ada anak yang jarang mandi</h5>
@@ -178,7 +184,7 @@
                         <div class="kategori position-absolute px-3 py-2 rounded">
                             <a class="text-white text-decoration-none" href="">Akademik</a>
                         </div>
-                        <img style="max-height: 300px; object-fit: cover; overflow: hidden;"
+                        <img style="height: 250px; object-fit: cover; overflow: hidden;"
                             src="./assets/images/foto ac rusak.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Ac rusak</h5>

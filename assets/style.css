@@ -31,6 +31,16 @@ footer {
     margin-top: 100px;
 }
 
+.card-hover {
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.card-hover:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 25px rgba(13, 110, 253, 0.35);
+}
+
 @media screen and (max-width:510px) {
     .hero .col img {
         width: 100%;
